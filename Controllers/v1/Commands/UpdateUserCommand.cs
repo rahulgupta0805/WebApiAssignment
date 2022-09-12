@@ -1,14 +1,11 @@
 ﻿using Ardalis.GuardClauses;
 using Ardalis.Result;
 using Ardalis.Result.FluentValidation;
-using Assignment.Service.Store.Models;
 using Assignment.Service.Store;
 using FluentValidation;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
-using static Assignment.Service.Controllers.v1.Commands.CreateNewUserCommand.Handler;
 using Microsoft.EntityFrameworkCore;
-using static Assignment.Service.Controllers.v1.Queries.GetUserDetailsQuery.Handler;
 
 namespace Assignment.Service.Controllers.v1.Commands
 {
